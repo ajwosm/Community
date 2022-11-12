@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script type="text/javascript">
+    global = 100;
+    function fn(){
+        console.log(global);
+        global = 200;
+        console.log(global);
+        var global = 300;
+
+    }
+    fn();
+</script>
+</body>
+</html>

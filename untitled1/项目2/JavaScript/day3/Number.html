@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript">
+        // var num=Number(prompt("请输入一个0-100的数字",""));
+        // if(isNaN(num)){
+        //     document.write("你输入的不是数字，请重新输入");
+        // }else if(num<0||num>100){
+        //     document.write("你输入的数字不在0-100范围之间");
+        // }else{
+        //     document.write("你输入的数字是："+num);
+        // }
+        var num=Number(prompt("请输入你的成绩"))
+            if(isNaN(num)){
+                document.write("你输入的不是数字");
+            }else if(num<100||num>90){
+                document.write("优");
+            }else if(num<89||num>80){
+                document.write("良");
+            }else if(num<79||num>70){
+                document.write("中");
+            }else if(num<69||num>60){
+                document.write("下");
+            }else if(num<60){
+                document.write("不及格");
+            }
+            
+        
+        
+    </script>
+</body>
+</html>

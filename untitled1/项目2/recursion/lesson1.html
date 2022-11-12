@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>递归</title>
+</head>
+<body>
+<script type="text/javascript">
+    //1.找规律
+    //2.找出口   只有一个好处：让程序简洁
+    //n的阶乘
+    //n! = n * (n - 1)!
+    // function mul(n){
+    //
+    //     if (n == 1 || n == 0){
+    //
+    //         return 1;
+    //     }
+    //
+    //     return n * mul(n - 1);
+    // }
+    //
+
+
+    //  斐波那契额数列
+    function fb(n){
+        if (n == 1 || n ==2){
+            return 1;
+        }
+    return fb(n - 1 ) + fb(n - 2);
+    }
+
+
+</script>
+</body>
+</html>

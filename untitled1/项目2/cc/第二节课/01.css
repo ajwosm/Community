@@ -1,0 +1,56 @@
+body{
+    font-family:"隶书";
+    font-size:16px; 
+    color:#303131;
+}
+
+.header{
+    width: 980px;
+    height: 114px;
+    background-color: #525252;
+    margin: auto;
+}
+.banner{
+    width: 980px;
+    margin:0 auto;
+}
+.banner h2{
+    font-size: 18px;
+    line-height: 40px;
+}
+.neirong{
+    width: 980px;
+    margin: 0 auto;
+}
+.neirong h2,h3{
+    text-align: center;
+}
+.banquan{
+    width: 980px;
+    height: 114px;
+    margin: 0 auto;
+    text-emphasis-color: #f9fbf9;
+    background-color:#828181;
+}
+.neirong p span {
+    font-size: 25px;
+    color:brown;
+    font-style:italic;
+}
+.neirong p .oo{
+    font-size: 16px;
+    color:brown;
+}
+.neirong .ss span{
+    font-size: 16px;
+    text-decoration:underline;
+}
+h2{
+    color:brown;
+}
+h3{
+    color:brown;
+}
+.banquan{
+    line-height: 114px;
+}

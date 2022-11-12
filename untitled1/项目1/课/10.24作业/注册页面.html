@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .box{
+            width: 393px;
+            height: 296px;
+            background: url("第六章/第六章素材/pic02.jpg") no-repeat;
+            background-size: 393px 296px;
+            margin: 0 auto;
+        }
+        .box2{
+            float: left;
+            width: 300px;
+            height: 214px;
+            background: rgba(225,225,225,0.5);
+
+            margin: 40px;
+        }
+        .box3{
+            width: 54px;
+            height: 54px;
+            float: left;
+            background: url("第六章/第六章素材/pic03.png") no-repeat;
+            margin:10px 120px;
+        }
+        .box4{
+            width: 300px;
+            height: 214px;
+            position: relative;
+        }
+        .txt1{
+            margin-bottom: 13px;
+            position: absolute;
+            left: 54px;
+            top: 89px;
+        }
+        .txt2{
+            position: absolute;
+            left: 54px;
+            top: 128px;
+        }
+        .txt1,.txt2{
+            background: #ffffff;
+            height: 20px;
+            border: none;
+        }
+        .button1,.button2{
+            background: rgba(225,225,225,0);
+            border: none;
+           color: #80767a;
+        }
+        .button1{
+            position: absolute;
+            bottom: 20px;
+            left: 75px;
+        }
+        .button2{
+            position: absolute;
+            bottom:20px;
+            left: 160px;
+        }
+        .pic1{
+            position: absolute;
+            left: 56px;
+            top: 90px;
+            z-index: 1;
+        }
+        .pic2{
+            position: absolute;
+            left: 56px;
+            top: 131px;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="box2">
+            <div class="box3">
+                    
+            </div>
+            <div class="box4">
+                <label>
+                    <span class="pic1"><img src="第六章/第六章素材/pic04.png" alt=""></span>
+                    <input type="text" class="txt1">
+                </label>
+                <label>
+                    <span class="pic2"><img src="第六章/第六章素材/pic05.png" alt=""></span>
+                    <input type="password" class="txt2">
+                </label>
+                <input type="button" value="注册" class="button1">
+                <input type="button" value="登录" class="button2">
+            </div>
+
+        </div>
+
+    </div>
+</body>
+</html>

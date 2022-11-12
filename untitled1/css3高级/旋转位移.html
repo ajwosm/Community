@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .one{
+
+            width: 1000px;
+            height: 301px;
+            border: 1px solid black;
+
+        }
+        .one::before{
+            float: left;
+            content: "";
+            width: 300px;
+            height: 300px;
+            background: url("images/tyre.png") no-repeat;
+            transition: all 8s;
+
+        }
+        .one:hover::before{
+            transform: translate(700px,0px) rotate(700deg);
+        }
+    </style>
+</head>
+<body>
+<div class="one">
+
+</div>
+</body>
+</html>

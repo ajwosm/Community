@@ -1,0 +1,68 @@
+*{
+    margin: auto;
+}
+
+.one{
+    width: 940px;
+    height: 625px;
+
+    background-image: url("images/bg.jpg");
+    margin: auto;
+   
+}
+.two{
+    width: 940px;
+    height: 75px;
+    background-image: url("images/nav.jpg");
+    line-height: 100px;
+    
+}
+.two span{
+    padding:0 50px;
+}
+.two .more{
+    margin-right: 240px;
+}
+
+.five{
+    width: 940px;
+    height: 90px;
+    background-image: url("images/dongtai.jpg");
+}
+.six{
+    width: 940px;
+    height: 300px;
+    background-color: aliceblue;
+}
+.six::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  * {
+    box-sizing: border-box;
+  }
+.box{
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+}
+.six .box span{
+    color: rgb(131, 131, 130);
+}
+.seven{
+    width: 980px;
+    
+    background-image: url("images/xinshang.jpg");
+
+}
+.seven::after{
+    content: "";
+    clear:both;
+    display: table;
+}
+.box2{
+    float: left;
+    width:25%;
+    padding: 50px;
+}

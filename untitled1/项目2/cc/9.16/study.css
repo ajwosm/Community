@@ -1,0 +1,20 @@
+/* 伪类选择器
+当鼠标移动到目标时加上css */
+a{
+    text-decoration: none;
+    
+}
+a:hover{
+    text-decoration: underline;
+    background-color: orange;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: arial;
+    border-radius: 10px;
+}
+.one{
+    
+    width: 980px;
+    margin: 0 auto;
+}

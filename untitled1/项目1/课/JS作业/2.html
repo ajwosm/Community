@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>简单的四则运算</h1>
+<script>
+    //软件2131 成家辉
+    var a,b,c,d;
+    var num1;
+    var num2;
+    var x;
+    num1 = Number(prompt("请输入第一个数"));
+    x = String(prompt("请输入运算符"));
+    num2 = Number(prompt("请输入第二个数"));
+    if (x == "+"){
+        a = num1 + num2;
+        document.write(num1 + "+" + num2 + "=" + a);
+    }
+    if (x == "-"){
+        a = num1 - num2;
+        document.write(num1 + "-" + num2 + "=" + a);
+    }
+    if (x == "*"){
+        a = num1 * num2;
+        document.write(num1 + "*" + num2 + "=" + a);
+    }
+    if (x == "/"){
+        a = num1 / num2;
+        document.write(num1 + "/" + num2 + "=" + a);
+    }
+
+
+
+</script>
+</body>
+</html>

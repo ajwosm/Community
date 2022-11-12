@@ -1,0 +1,77 @@
+.logo{
+    width: 980px;
+    height: 80px;
+    margin: 0 auto;
+    background: url("../第六章素材/images/navbg.png") no-repeat;
+}
+ul{
+    list-style: none;
+}
+.beijing{
+    width: 101px;
+    height: 48px;
+    text-align: center;
+    background:url("../第六章素材/images/pic03.png") no-repeat;
+    background-size: 100px 50px;
+}
+.box2,.box3{
+    width: 980px;
+    height: 400px;
+    margin: 0 auto;
+    background: rgb(245,245,245);
+}
+.beijing2,.beijing3{
+    width: 980px;
+    height: 31px;
+    background: url("../第六章素材/images/pic01.jpg");
+    position: relative;
+}
+.txt,.txt2{
+    color: #ffffff;
+    position: absolute;
+    line-height: 31px;
+    left: 35px;
+}
+li{
+    float: left;
+    color: #ffffff;
+    line-height: 50px;
+    margin-left: 20px;
+}
+.box1{
+    width: 980px;
+    height: 330px;
+    margin: 0 auto;
+}
+table{
+    line-height: 50px;
+    margin: 0 auto;
+}
+.text1 input{
+    border: 1px solid green;
+    width: 250px;
+}
+table span{
+    color: green;
+}
+.text{
+    width: auto;
+    height: 50px;
+}
+.txt3{
+    width: 100px;
+    height: 50px;
+}
+.txt4{
+    width: 400px;
+    height: 50px;
+}
+.footer{
+    text-align: center;
+    line-height: 40px;
+    width: 179px;
+    height: 40px;
+    color: #ffffff;
+    margin: 0 auto;
+    background: url("../第六章素材/images/pic02.png") no-repeat;
+}

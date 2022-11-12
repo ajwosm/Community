@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <script type="text/javascript">
+        //区分类型
+        //typeof     number string boolean object undefined fuction
+        // var num = 123;
+        // var num1 = {};
+        // var num2 = null;
+        // var num3 = undefined;
+        // var num4 = "123";
+        // var num5 = true;
+        //
+        // console.log(typeof (num));
+        // console.log(typeof (num1));
+        // console.log(typeof (num2));
+        // console.log(typeof (num3));
+        // console.log(typeof (num4));
+        // console.log(typeof (num5));
+        //类型转换
+        //1.隐式类型转换
+        // var num6 = 1 * "1";
+        // console.log(typeof(num6)+":"+num6);
+        //2.显式类型转换
+        // var demo = true; //undefined不能转换成数字
+        // var number = Number(demo);//Number()把里面的东西转换成数字
+        // console.log(typeof(number)+":"+number);
+        //
+        // var demo1 = "123abc";            //radix (2 - 36)
+        // var number1 = parseInt(demo1);//ParseInt()把里面的除了数字以外的砍断输出
+        // console.log(typeof(number1)+":"+number1);
+        //
+        // var demo2 = "100.2abcd";
+        // var number2 = parseFloat(demo2);//parseFloat()把里面的东西除了点以外的砍断输出
+        // console.log(typeof(number2)+":"+number2);
+        //
+        // //String()写什么东西都会变成字符串类型
+        // var demo3 = 123.234;
+        // var num = String(demo3);
+        // console.log(typeof(num)+":"+num);
+        //
+        // //Boolean()致力把里面的东西转化成布尔类型；除了那几个都是true
+        // var demo4 = 0;
+        // var number3 = Boolean(demo4);
+        // console.log(typeof(number3)+":"+number3);
+        //
+        // //toString(radix)转化成字符串与上面的用法不同
+        // var demo5 = 123;
+        // var number4 = demo5.toString();
+        // console.log(typeof(number4)+":"+number4);//undefined和null不能使用这个
+
+        // var a = "010101001";
+        // var text = parseInt(a,16);
+        // console.log(typeof(text)+":"+text);
+
+        //隐式类型转换
+        //1.isNaN
+        //console.log(isNaN(null));
+        //调用Number()
+        //var a = "123";
+        //a ++;
+        //var b = "abc";
+        //b ++;
+        //&&类型转换
+        // var a = 1 > "2";//转换成数字比较
+        // console.log(typeof(a)+":"+a);
+        // //==和！=
+        // var a = 1 == "1";
+        // console.log(typeof(a)+":"+a);
+
+        //undefined == null
+        // ===绝对等于  ！==绝对不等于
+        var a = 10 + "20";
+        console.log(a);
+
+
+
+
+
+    </script>
+</body>
+</html>

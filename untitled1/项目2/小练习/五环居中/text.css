@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.c{
+    width: 100px;
+    height: 100px;
+    
+    border: 10px solid red;
+    border-radius: 50%;
+}
+#c2{
+    position: absolute;
+    left: 75px;
+    top: 0;
+    border-color: green;
+}
+#c3{
+    position: absolute;
+    left: 150px;
+    top: 0;
+    border-color: blue;
+}
+#c4{
+    position: absolute;
+    left: 50px;
+    top: 75px;
+    border-color: yellow;
+}
+#c5{
+    position: absolute;
+    left: 100px;
+    top: 75px;
+    border-color: orange;
+}
+#cc{
+    position: relative;
+    width: 276px;
+    height: 200px;
+   
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -138px;
+    margin-top: -100px;
+}
+
+h1{
+    text-align: center;
+}

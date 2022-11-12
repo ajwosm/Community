@@ -1,0 +1,19 @@
+.f::after{
+    content: "";/*伪元素*/
+    clear:both;/*使用伪元素清除父级浮动*/
+    display: block;/*只有在块元素时才生效*/
+}
+
+
+/* position:abolute; float:left/right;
+打内部把元素转换成inline-block; */
+.f{
+    border: 1px solid red;
+}
+.er{
+    float: left;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    color: #fff;
+}

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>函数</title>
+</head>
+<body>
+<script>
+
+    // function text(){
+    //     document.write('a');
+    //     document.write('b');
+    //     document.write('c');
+    // }
+    // if (1 > 0) {
+    //    text();
+    // }
+    // if (2 > 0) {
+    //     text();
+    // }
+    // if (3 > 0) {
+    //     text();
+    // }
+    // 耦合  抵消编码
+    // 高内聚  弱耦合
+
+
+    // function text(){
+    //     var a = 123;
+    //     var b = 234;
+    //     var c = a + b;
+    //     document.write(c);
+    // }
+    // text();
+
+
+    // 函数声明
+    // function text(){
+    //     // 代码块
+    // }
+    // 1.命名函数表达式
+    // var text = function abc(){ // 表达式忽略它的名字
+    //     document.write("a");
+    // }
+    // 2.匿名函数表达式
+    // var demo = function (){
+    //
+    // }
+
+    //函数参数
+                //形式参数--形参
+    // function text(a, b){
+    //     //var a
+    //     //var b
+    //     // var c = a + b;
+    //     // document.write(c);
+    //     if (a > 10){
+    //         document.write(a - b);
+    //     }else if (a < 10) {
+    //         document.write(a + b);
+    //     }else{
+    //         document.write(10);
+    //     }
+    // }
+    //实际参数--实参
+    //text(11,2);
+
+
+    //一个实参可以对应无数个形参，一个形参也可以对应无数个实参，
+    // 按顺序往里传值，多余的
+    // function sum(a,b,c,d) {
+
+        //隐式
+        //arguments --[11,2,3]  实参列表
+        // for(var i = 0;i < arguments.length;i++){
+        //     console.log(arguments[i]);
+        // }
+
+        //函数名.length  形参列表
+        //console.log(sum.length);
+
+
+        // if (sum.length > arguments.length) {
+        //     console.log("形参多了");
+        // }else if(arguments.length > sum.length){
+        //     console.log("实参多了");
+        // }else{
+        //     console.log("相等");
+        // }
+
+    //}
+    //sum(11, 2, 3, 3, 5, 7, 2, 7);
+
+
+        //不定参的优势
+        // function sum() {
+        //     var result = 0;
+        //     for (var i = 0; i < arguments.length; i++) {
+        //         result += arguments[i];
+        //     }
+        //     console.log(result);
+        // }
+        //
+        // sum(11, 2, 3, 3, 5, 7, 2, 7);
+
+
+    // function sum(a,b){
+    //
+    //     //argument [1,2]
+    //     //var a = 1;
+    //     // a = 2;              //a和argument的关系：
+    //     // arguments[0] = 3;   //在系统内部映射，你变我也变我变你也变。
+    //     // console.log(a);
+    //
+    //
+    //     // b = 2;
+    //     // console.log(arguments[1]);//当实参没有的时候，就不会发生映射。
+    //
+    //
+    // }
+    // sum(1);
+
+
+    //返回值
+    // function text(a,b){
+    //     console.log(a);
+    //     return a;//函数终止
+    //     console.log(b);//不可到达
+    // }
+    // text(1,2);
+
+
+    //返回数值
+    // function myNumber(target){
+    //     return +target;
+    // }
+    // var num = myNumber('123');
+    // console.log(typeof (num) + " " + num);
+
+
+    //typeof 123 等同于 typeof()
+
+
+
+
+
+</script>
+</body>
+</html>

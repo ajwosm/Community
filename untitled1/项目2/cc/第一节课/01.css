@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: "楷体";
+    color: #a5a5a5;
+    background-color: #ededed;
+    font-size: 16px;
+}
+.header{
+    width:980px;
+    height: 86px;
+    text-align: center;
+    line-height: 86px;
+    margin: auto;
+}
+.header span{
+    font-size: 16px;
+}
+.fenlei{
+    width: 980px;
+    height: 600px;
+    margin: auto;
+}
+.fenlei h2{
+    font-size: 16px;
+    line-height:40px;
+}
+.fenlei p{
+    line-height: 40px;
+    text-align: center;
+}
+.remai{
+    width: 600px;
+    height: 600px;
+    margin: auto;
+}
+.remai p{
+    text-indent: 30px;
+    line-height: 25px;
+}
+.remai  p span span{
+    text-indent: 30px;
+    text-decoration:underline;
+}
+.remai p span{
+    text-indent: 30px;
+}
+.footer{
+    width: 600px;
+    height: 40px;
+    margin: auto;
+    text-align: left;
+    display: inline;
+    text-align: center;
+}
+.footer ul li {
+    text-align: left;
+    display: inline;
+}
+.zuozhu{
+    width: 600px;
+    margin: auto;
+    display: block;
+}
+.zuozhu p,.zuozhu h3{
+    text-indent:2em
+	}
+    .zuozhu h3{
+        height:30px; 
+        line-height:30px; 
+        font-family:"微软雅黑"; 
+        font-size:18px; 
+        font-weight:normal;
+       
+}
+    .zuozhu p{
+        font-style:italic; 
+        line-height:26px; 
+        font-size:14px;
+        }
+
+.sss{
+    float: left;
+}
+.zuozhu h3 p{ 
+    float:right;
+}
+
+.zuozhu h3 {
+    text-align: left;
+}
+

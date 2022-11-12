@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>js计算n的阶乘</title>
+</head>
+<body>
+    <script type="text/javascript">
+        var n = parseInt(window.prompt('input'))
+        /*5! = 5 * 4 * 3 * 2 * 1
+        4! = 4 * 3 * 2 * 1
+
+         */
+        var mul = 1;
+        for (var i = 1; i <= n ; i ++){
+            mul *= i;
+        }
+        document.write(mul);
+
+
+
+    </script>
+</body>
+</html>

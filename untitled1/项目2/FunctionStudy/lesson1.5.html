@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>银行算法</title>
+</head>
+<body>
+<script type="text/javascript">
+   // 输入一个10位以内的数把他变成大写输出；
+   //  var num1 = window.prompt('input');
+   //  function algorithm/*算法*/(num){
+   //      var cont = 0;
+   //      var a = parseInt(num);
+   //      for (var i = 0;i < a.length;i ++){
+   //          cont++;
+   //      }
+   //  console.log(cont);
+   //  }
+   //  algorithm(num1);
+   //  console.log(num1);
+
+    // function start(num){
+    //     switch (num) {
+    //         case 1:
+    //             return "壹";
+    //         case 2:
+    //             return "贰";
+    //         case 3:
+    //             return "叁";
+    //         case 4:
+    //             return "肆";
+    //         case 5:
+    //             return "伍";
+    //         case 6:
+    //             return "陆";
+    //         case 7:
+    //             return "柒";
+    //         case 8:
+    //             return "捌";
+    //         case 9:
+    //             return "玖";
+    //     }
+    // }
+    // var a = window.prompt("请输入一个数");
+    // console.log(start(a));
+</script>
+<script type="text/javascript">
+    //要求输入一个万以内的数,输出它的大写读法
+
+    function two(){
+        for (var i = 0; i<num.length; i ++){
+            if (num[i]==1){
+                console.log("壹");
+            }else if (num[i] == 2){
+                console.log("贰");
+            }else if (num[i] == 3){
+                console.log("叁");
+            }else if (num[i] == 4){
+                console.log("肆");
+            }else if (num[i] == 5){
+                console.log("伍");
+            }else if (num[i] == 6){
+                console.log("陆");
+            }else if (num[i] == 7){
+                console.log("柒");
+            }else if (num[i] == 8) {
+                console.log("捌");
+            }else if (num[i] == 9) {
+                console.log("玖");
+            }
+        }
+    }
+    function one(){
+        for (var i = 0; i < num.length; i ++){
+            if (cont==5){
+                var a = "万";
+                console.log(two()+a);
+                if (num[3] !=0){
+                    var b = "零"
+                    console.log(a+b);
+                }
+            }else if(cont == 4){
+                var c = "千"
+                console.log(c);
+            }
+        }
+
+    }
+    var num = window.prompt("请输入一个五位数");
+    var cont = 0;
+    //num.length
+    for (var i = 0;i < num.length;i ++){
+        cont++;
+    }
+    console.log(cont);
+
+    one();
+    //console.log(typeof num +" "+num);
+</script>
+</body>
+</html>

@@ -1,0 +1,131 @@
+* {
+    margin: 0 auto;
+}
+
+.toubu {
+    width: 980px;
+    height: 80px;
+    margin: auto;
+    position: relative;
+}
+
+.tupian {
+    position: absolute;
+    left: 100px;
+    top: 15px;
+}
+
+.logo {
+    position: absolute;
+    right: 100px;
+    top: 35px;
+    color: rgb(235, 177, 119);
+}
+
+.banner {
+    width: 980px;
+
+}
+
+.daohang {
+    width: 980px;
+    height: 80px;
+    margin: auto;
+    background-color: burlywood;
+    line-height: 80px;
+    text-align: center;
+    position: relative;
+}
+
+.daohang .daohang1 {
+    position: absolute;
+    left: 160px;
+    top: 3px;
+
+}
+
+.daohang .daohang2 {
+    position: absolute;
+    left: 300px;
+    top: 3px;
+}
+
+.daohang .daohang4 {
+    position: absolute;
+    right: 300px;
+    top: 3px;
+}
+
+.daohang .daohang5 {
+    position: absolute;
+    right: 150px;
+    top: 3px;
+}
+
+.banner2 {
+    width: 980px;
+    height: 500px;
+}
+
+/* 分类 */
+* {
+    box-sizing: border-box;
+}
+
+.fenlei {
+    width: 980px;
+    height: 220px;
+    background-color: burlywood;
+}
+
+.fenlei div {
+    display: inline;
+    float: left;
+    width: 20%;
+    padding: 10px;
+    position: relative;
+}
+
+.fenlei div span {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    color: rgb(199, 112, 75);
+}
+
+/* 展示 */
+
+.zhanshi {
+    width: 980px;
+    height: 650px;
+    background-color: rgb(238, 218, 192);
+}
+
+.zhanshi div {
+    display: inline;
+}
+
+.zhanshi div img {
+    width: 150px;
+
+}
+
+.box {
+    float: left;
+    width: 25%;
+    padding: 20px;
+    margin: 20px 30px 40px 14px;
+}
+
+.zhanshi .box {
+    width: 200px;
+    height: 250px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: white;
+}
+.zhanshi .box p span{
+    color:brown;
+}
+.zhanshi .box p .dock{
+    color:pink;
+}

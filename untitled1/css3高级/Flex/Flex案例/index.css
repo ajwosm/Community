@@ -1,0 +1,63 @@
+body{
+    background: #f7f7f8;
+}
+/*公共样式*/
+.red{
+    color: red;
+}
+.pannel{
+    margin-bottom: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+/*公共样式*/
+/*主题内容*/
+.main{
+    /*80px 为了底部内容不被主题内容盖住*/
+    padding: 12px 11px 80px;
+}
+/*用户信息*/
+.user_msg{
+    padding: 15px 0 15px 11px;
+    display: flex;
+}
+/*用户信息*/
+/*主题内容*/
+/*底部支付*/
+.pay{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    border-top: 1px solid #ededed;
+    padding: 0 11px;
+    display: flex;
+    /*主轴对齐方式*/
+    justify-content: space-between;
+    /*侧轴对齐方式s*/
+    align-items: center;
+}
+.pay .left{
+    font-size: 12px;
+}
+i{
+    font-style: normal;
+}
+.pay .left i{
+    font-size: 20px;
+}
+.pay .right a{
+    display: block;
+    width: 90px;
+    height: 35px;
+    background-image: linear-gradient(90deg,
+    #6fc2aa 5%,
+    #54b196 100%);
+    border-radius: 3px;
+    text-align: center;
+    line-height: 35px;
+    font-size: 13px;
+    color: #ffffff;
+}
+/*底部支付*/

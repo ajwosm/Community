@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var deng = {
+        prepareWife : "xiaowang",
+        name : "laodeng",
+        sex : "male",
+        gf : "xiaoliu",
+        wife : "",
+        divorce : function  (){
+            delete this.wife;
+            this.gf = this.prepareWife;
+        },
+        getMarried : function(){
+            this.wife = this.gf;
+        },
+        changePreparWife : function (someone){
+            this.prepareWife = someone;
+        }
+    }
+    deng.changePreparWife("xiaoliu")
+    console.log(deng.prepareWife);
+</script>
+</body>
+</html>

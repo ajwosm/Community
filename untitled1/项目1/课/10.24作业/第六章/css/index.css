@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+i{
+    font-style: normal;
+}
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.logo1{
+    margin-left: 250px;
+}
+.banner{
+    width: 980px;
+    height: 429px;
+
+    margin: 0 auto;
+}
+ul{
+    width: auto;
+    height: 50px;
+    background: rgb(254,102,143);
+    list-style: none;
+}
+li{
+    float: left;
+    line-height: 50px;
+}
+.li1{
+    margin-left: 250px;
+}
+.li2,.li3,.li4,.li5,.li6{
+    margin-left: 100px;
+}
+.text{
+    width: 980px;
+    height: 934px;
+    background: url("../第六章素材/content_bg.jpg");
+    margin: 0 auto;
+    position: relative;
+    color: rgb(221,135,146);
+
+}
+.txt{
+    margin: 20px 0 0 150px;
+}
+ span{
+     font-weight: 400;
+     font-size: 18px;
+     line-height: 30px;
+}
+.txt img{
+    vertical-align: middle;
+}
+hr{
+    background:  rgb(221,135,146);
+}
+.txt1{
+    margin: 20px 0 0 150px;
+    width: 400px;
+    height: 400px;
+    line-height: 50px;
+}
+input{
+
+    border-color: rgb(221,135,146);
+    outline: none;
+}
+ select{
+    width: 150px;
+    height: 20px;
+     border-color:rgb(221,135,146) ;
+     color: rgb(221,135,146);
+}
+.tijiao{
+    position: absolute;
+    left: 200px;
+    bottom: 50px;
+}
+.footer{
+    width: auto;
+    background: rgb(254,102,143);
+    height: 100px;
+}
+p{
+    text-align: center;
+    line-height: 50px;
+    color: #ffffff;
+}

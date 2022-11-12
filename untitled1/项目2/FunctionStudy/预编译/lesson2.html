@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>预编译</title>
+</head>
+<body>
+<script type="text/javascript">
+
+  //语法分析
+  //预编译   //函数声明整体提升  变量 声明提升
+  //解释执行
+  //1.创建一个AO对象 ；(执行期上下文)
+  // 这个函数产生的一个存储空间库
+  /*      AO{
+
+        }
+
+    2.把形参和和实参的名变成AO对象的属性
+    值都是undefined。
+          AO{
+            a : undefined
+            b : undefined
+        }
+     3.将实参和形参相统一。传参
+            AO{
+            a : 1
+            b : undefined
+        }
+      4.在函数中找函数声明。
+      把AO对象中的属性变成函数体  · 值会被修改
+      AO{
+            a : function a(){}
+            b : undefined
+            d ：function d(){}
+        }
+       5.函数执行：
+       AO{
+            a : 123
+            b : function (){}
+            d ：function d(){}
+       }
+   */
+    function fn(a){  //预编译就是解决这样的问题
+        console.log(a);
+        var a=123;
+
+        console.log(a);
+
+        function a(){}
+
+        console.log(a);
+
+        function b(){}
+
+        console.log(b);
+
+        function d(){}
+    }
+    fn(1);
+    //预编译发生在函数执行的前一刻
+
+</script>
+</body>
+</html>

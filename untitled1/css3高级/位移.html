@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <style>
+
+    .one{
+        width: 1300px;
+        height: 600px;
+        background:url("images/bg.jpg") no-repeat;
+        overflow: hidden;
+    }
+    .one::after,.one::before{
+        float: left;
+        content: "";
+        width: 50%;
+        height: 600px;
+        background: url("images/fm.jpg") no-repeat;
+        transition: all 0.5s;
+    }
+    .one::after{
+        background-position: right 0;
+    }
+
+    .one:hover::after{
+        transform: translate(1000px,0px);
+    }
+    .one:hover::before{
+        transform: translate(-1000px,0px);
+    }
+
+  </style>
+</head>
+<body>
+<div class="one">
+
+</div>
+</body>
+</html>

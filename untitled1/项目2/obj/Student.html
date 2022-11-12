@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // function Student(name,age,sex) {
+    //     //var this = {
+    //     //      name : ""
+    //     //      age :
+    //     // };
+    //     this.name = name;
+    //     this.age = age;
+    //     this.sex = sex;
+    //     this.grade = 2017;
+    //     //return this
+    // }
+    // var student = new Student('zhangsan',18,'male');
+    function Person(name,height) {
+        this.name = name;
+        this.height = height;
+        this.say = function (){
+            console.log(this.say);
+        }
+    }
+    console.log(new Person('xiaowang',180,).name);
+</script>
+</body>
+</html>

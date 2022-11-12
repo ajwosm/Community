@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>文字溢出</title>
+    <style>
+        p{
+            width:100px;
+            height: 20px;
+            /* border: 1px solid black; */
+            white-space: nowrap;/*文本不自动换行*/
+            overflow: hidden;/*溢出隐藏*/
+            text-overflow: ellipsis;/*后面三个点*/
+        }
+        div{
+            width: 200px;
+            height: 200px;
+            border: 1px solid black;
+            background-image: url(img4.jpg);/*背景图片*/
+            background-size: 50px 50px;/*图片大小*/
+            background-repeat: no-repeat;/*默认平铺，这里设置为不平铺*/
+            background-position: center center;/*图片定位，基于父级定位，两个值*/
+        }
+        a{
+            display: inline-block;/*一般大公司里面的技术，当网速不好的时候加载不出来css，依然可以正常使用。例如下*/
+            text-decoration: none;
+            color: #424242;
+            width: 140px;
+            height: 0;
+            padding-top: 60px;
+            background-image: url(https://gw.alicdn.com/imgextra/i3/O1CN01uRz3de23mzWofmPYX_!!6000000007299-2-tps-143-59.png);
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+    <p>学会隐藏情绪是一个成年人的必修课</p>
+    <div></div>
+    <a href="#">淘宝网</a>
+    <!-- 浏览器内核处理原则 
+        行级元素只能套行级元素
+        块级元素可以套任何元素
+        p标签并不能套块元素
+        如果套了p标签会被浏览器砍成两个
+        a标签不能套a标签！
+    -->
+</body>
+</html>

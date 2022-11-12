@@ -1,0 +1,37 @@
+@import "reset.css";
+
+#header{
+    width: 980px;
+    margin: 30px 0 10px 0;
+    height: 50px;
+    background-image: linear-gradient(to right,#A8C1EF,#ffffff);
+}
+
+#header ul .forum{
+    margin-left: 100px;
+}
+
+#header ul .headline{
+    margin-right: 100px;
+}
+
+#header ul .register{
+    margin-left: 50px;
+}
+
+#header ul .homepage{
+    margin-right: 50px;
+}
+
+#header ul li{
+    line-height: 50px;
+}
+
+#header ul .result{
+    padding: 0 10px 0 10px;
+    background-image: linear-gradient(#0CD0E0,#03a9f4);
+    border-radius: 20px;
+}
+#header ul .result:hover {
+    background-image: linear-gradient(#00ca4e,#0CD0E0) ;
+}

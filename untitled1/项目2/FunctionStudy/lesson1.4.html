@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script type="text/javascript">
+        //函数外面不可以访问里面
+        //函数里面的可以访问外面
+        function jc(n){
+            if (n == 1){
+                return 1;
+            }
+            return  n * jc(n-1);
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript">
+        //逻辑运算符       &&  ||  !
+        // &&与运算符 遇到假的返回，没有假的看到最后一个返回最后一个
+        // ||或运算符 遇到真返回，一直找真
+        // ! 取反
+        //先看第一个表达式转换成布尔值的结果，如果结果为真
+        //那么它会看第二个表达式转换成布尔值的结果然后如果
+        //只有两个表达式的话，只看到第二个表达式就可以返回该表达式的值了。
+        
+        var num = 0 || 0 || 2;
+        document.write(num);
+        //undefined, null, NaN, "", 0, false ==>false
+    </script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<audio id="one" src="./徐梦玲Joe%20-%20爱如潮水（翻自%20GAI周延）.mp3" loop="loop" controls="controls" autoplay="autoplay"></audio>
+<script type="text/javascript">
+    function toggleSound() {
+        var music = document.getElementById("one");//获取ID
+        console.log(music);
+        console.log(music.paused);
+        if (music.paused) { //判读是否播放
+            music.paused=false;
+            music.play(); //没有就播放 
+        }
+    }
+
+    toggleSound();
+</script>
+</body>
+</html>

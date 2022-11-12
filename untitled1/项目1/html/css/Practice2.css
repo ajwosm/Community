@@ -1,0 +1,32 @@
+.text{
+    margin: 0 auto;
+    width: 300px;
+    height: 100px;
+    background: pink;
+    position: relative;
+    box-shadow: 0 0 10px 10px pink;
+}
+a{
+    color: #7a7a7a;
+    text-decoration: none;
+}
+.top{
+    position: absolute;
+    width: 250px;
+    height: 80px;
+    left: 40px;
+    top: 32px;
+}
+.text1{
+    text-align: center;
+}
+h3{
+    color: #ffffff;
+}
+.zhuce{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-size: 12px;
+    color: #ffffff;
+}

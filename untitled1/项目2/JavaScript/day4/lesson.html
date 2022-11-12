@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript">
+        //js 运算
+
+        //动态语言
+        // 原始值 stack 栈内存
+        // Number    Boolean  String    undefined null
+        // 数字类型  布尔类型 字符串类型 
+        // var a =  数只有浮点型
+        //var b ="成家辉很帅"
+
+        /*
+        错误分成两种
+        1.低级错误（语法解析错误）
+        代码不会执行
+        2.逻辑错误（标准错误，情有可原）
+        后续代码不会执行
+        */
+
+        // var a = 10;
+        // var b = a;
+        // a=20;
+        // document.write(b); //b不跟着改变
+ 
+        // var arr = [1];
+        // var arr1 = arr;
+        // arr.push(2);
+        // document.write(arr1);//数组中跟着改变
+
+        // var a = "a" + 1 + 1;
+        // document.write(a);
+
+        // var a = 10;
+        // a = a + 1;//等同于a++,a--相同的道理
+        //           //++和--可以放再a前面也可以在后面
+        //           //区别是在前面先执行a++在执行这条语句
+        //           //在后面则反之  
+        // document.write(a);
+
+        //使a和b交换位置
+        var a = 123;
+        var b = 234;
+        var c;
+        c = a;
+        a = b; 
+        b = c;
+        document.write(b+" "+a);
+
+        //a + = 10等同于a = a + 10
+
+        //0/0;
+        //NaN Not A Number 不是数
+        //1/0;
+        //Infinity 无限的
+
+        //引用值 heap 堆内存 
+        //array Object function ...date RegExp
+        // 数组:var arr = [1,2,3,4,5];
+
+
+        
+    </script>
+</body>
+</html>
